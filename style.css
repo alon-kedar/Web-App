@@ -1,0 +1,32 @@
+body {
+    width: 100%;
+    font-size: 0;
+}
+
+.layout-wrap,
+header{
+    width: 80%;
+    max-width: 960px;
+    margin: auto;
+}
+
+a {
+    font-size: 1rem;
+}
+
+nav {
+    background-color: lightgrey;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.nav-section {
+    display: inline-block;
+    background-color: whitesmoke;
+    width: 30%;
+    margin-right: 5%;
+}
+
+.nav-section:last-child {
+    margin-right: 0;
+}
