@@ -6,6 +6,7 @@ body {
 .layout-wrap {
     width: 80%;
     max-width: 960px;
+    min-width: 720px;
     margin: auto;
 }
 
@@ -45,14 +46,23 @@ p {
 }
 
 p {
-    padding: 0 20px;
+    padding: 10px 20px;
+    margin: 0;
 }
 
+.tabs li>a {
+    display: inline-block;
+    padding-top: 10px;
+}
 nav,
 .tabs{
     padding: 20px 0;
     width: calc(100% - 40px);
     margin: auto;
+}
+
+.tabs {
+    padding-top: 0;
 }
 
 ul {
@@ -62,8 +72,10 @@ ul {
 .tabs li {
     display: inline-block;
     background-color: whitesmoke;
-    margin-right: 4%;
-    width: 22%;
+    margin-right: 2%;
+    width: 23.5%;
+    height: 40px;
+    text-align: center;
 }
 
 .tabs li:last-child {
@@ -73,8 +85,9 @@ ul {
 .nav-section {
     display: inline-block;
     background-color: whitesmoke;
-    margin-right: 5%;
-    width: 30%;
+    margin-right: 2%;
+    width: 32%;
+    height: 160px;
 }
 
 .nav-section:last-child {
@@ -83,6 +96,9 @@ ul {
 
 .nav-section > p {
     text-align: center;
+    color: white;
+    background-color: black;
+    padding-bottom: 90px;
 }
 
 .action-list {
