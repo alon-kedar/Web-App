@@ -9,20 +9,18 @@ body {
     margin: auto;
 }
 
+header > .layout-wrap > * {
+    padding: 0 20px;
+}
+
 header > .layout-wrap > a {
     float: left;
     font-size: 0;
     padding-top: 31px;
 }
 
-
-
 header > .layout-wrap > .search-box {
     float: right;
-}
-
-body .layout-wrap {
-    background-color: lightgrey;
 }
 
 header input {
@@ -35,8 +33,14 @@ header {
     background-color: black;
 }
 
+
+body .layout-wrap {
+    background-color: lightgrey;
+}
+
+
 a,
-p{
+p {
     font-size: 1rem;
 }
 
@@ -44,18 +48,26 @@ p {
     padding: 0 20px;
 }
 
-nav {
-    /*padding: 0 20px;*/
+nav,
+.tabs{
+    padding: 20px 0;
     width: calc(100% - 40px);
     margin: auto;
-
 }
 
-.layout-wrap > * {
-    /*padding: 0 20px;*/
-    /*display: block;*/
-    /*margin: auto;*/
-    text-align: center;e
+ul {
+    padding-left: 0;
+}
+
+.tabs li {
+    display: inline-block;
+    background-color: whitesmoke;
+    margin-right: 4%;
+    width: 22%;
+}
+
+.tabs li:last-child {
+    margin-right: 0;
 }
 
 .nav-section {
@@ -63,7 +75,6 @@ nav {
     background-color: whitesmoke;
     margin-right: 5%;
     width: 30%;
-
 }
 
 .nav-section:last-child {
