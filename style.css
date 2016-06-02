@@ -3,6 +3,12 @@ body {
     font-size: 0;
 }
 
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
 .layout-wrap {
     width: 80%;
     max-width: 960px;
@@ -56,8 +62,8 @@ p {
 }
 nav,
 .tabs{
-    padding: 20px 0;
-    width: calc(100% - 40px);
+    padding: 20px;
+    width: 100%;
     margin: auto;
 }
 
