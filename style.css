@@ -28,6 +28,7 @@ header > .layout-wrap > a {
 
 header > .layout-wrap > .search-box {
     float: right;
+    /*display: inline-block;*/
 }
 
 header input {
@@ -61,10 +62,16 @@ p {
     padding-top: 10px;
 }
 nav,
-.tabs{
+.tabs > ul{
     padding: 20px;
     width: 100%;
     margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tabs > ul {
+    padding-top: 0;
 }
 
 .tabs {
@@ -76,10 +83,10 @@ ul {
 }
 
 .tabs li {
-    display: inline-block;
+    /*display: inline-block;*/
     background-color: whitesmoke;
-    margin-right: 2%;
-    width: 23.5%;
+    margin-right: 10px;
+    width: 215px;
     height: 40px;
     text-align: center;
 }
@@ -89,10 +96,10 @@ ul {
 }
 
 .nav-section {
-    display: inline-block;
     background-color: whitesmoke;
-    margin-right: 2%;
-    width: 32%;
+    margin-right: 10px;
+    /*width: 32%;*/
+    width: 290px;
     height: 160px;
 }
 
